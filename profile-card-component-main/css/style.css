@@ -1,0 +1,121 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+}
+
+body{
+   
+    background-color: rgb(75 163 173);
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.container-top{
+    max-width: 1440px;
+    margin:0 auto;
+}
+
+.profile-card{
+    text-align: center;
+    box-sizing: border-box;
+    border-radius:20px; 
+    position: fixed;   
+}
+.name{
+    padding-bottom:1rem;
+}
+
+.name span{
+    color: rgb(167, 159, 159);
+}
+
+.des{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top:2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border-top:2px solid rgb(168, 163, 163);
+
+}
+.color{
+    background-color: rgb(247, 252, 247);
+    margin-bottom: -1rem;
+}
+
+.vic-img{
+    border-radius: 100%;
+    box-sizing: border-box;
+    margin-top:-3rem;
+    text-decoration: none;
+    border:5px solid  rgb(247, 252, 247);
+}
+
+.bg-img{
+    width:100%;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+
+@media (max-width:375px){
+    .container{
+        width: auto;
+        height: auto;
+    }
+
+    .profile-card{
+        text-align: center;
+        align-items: center;
+        width:auto;
+        height: auto;
+        margin-top: 30%;
+        margin-right: 10%;
+        margin-left: 10%;   
+    }
+    .bottom{
+        margin: 12rem;
+    }
+
+}
+
+@media (min-width:376px){
+    .container{
+        width: auto;
+        height: auto;
+    }
+
+    .profile-card{
+   
+       margin-top:30% ;
+       margin-left: 10%;
+       margin-right: 10%;
+       margin-bottom: 30%;
+       width:auto;
+       height: auto;
+       text-align: center;
+       align-items: center;
+    }
+
+}
+
+@media   (min-width:767px) {
+   
+    .container-top{
+        width: 32%;
+        text-align: center;
+        align-items: center;
+        /* border: 2px solid red; */
+      
+    }
+    .profile-card{
+        width:100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        position:relative;
+    }
+}
+
+

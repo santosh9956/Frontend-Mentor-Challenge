@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background: rgb(230 239 246);
+}
+.main{
+   
+    width:60%;
+    box-sizing: border-box;
+}
+
+.top{
+    background-color:white ;
+    width:100%;
+    height: 30vh;
+    border-radius: 0.5rem;
+}
+
+.bottom{
+    display: flex;
+}
+
+.first{
+    width: 50%;
+    height:40vh;
+    border-bottom-left-radius: 0.5rem;
+    background:rgb(84 179 175);
+}
+
+.second{
+    width: 50%;
+    height:40vh;
+    border-bottom-right-radius: 0.5rem;
+    background: rgb(90 190 189);
+}
+
+
+.top h1{
+    color: rgb(112 198 196);
+    padding-top:2rem;
+    margin-left: 2rem;
+}
+
+.top h2{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color:rgb(199 220 93) ;
+}
+
+.top p{
+    color: rgb(184 187 196);
+    padding-right: 11rem;
+    margin-left: 2rem;
+    margin-top: .8rem;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    font-weight: 550;
+}
+
+.first h1{
+    color: white;
+    margin-top: 1rem;
+    margin-left: 2rem;  
+}
+
+.first h2{
+    font-weight: 900;
+    color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.first h1 span{
+    font-size: 1.4rem;
+    color: rgb(6, 143, 143);
+    margin-left:.7rem ;
+}
+
+.first p{
+    margin-left: 2rem;
+    margin-top: 2rem;
+   
+    color: white;
+    font-size: 1.5rem;
+}
+
+.first button{
+    width: 70%;
+    height: 8vh;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background: rgb(191 223 55);
+    outline: none;
+    border:2px orange;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.second h2{
+    color: white;
+    font-weight: bolder;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.second p{
+    color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-right: 13rem;
+}
+
+@media screen and (max-width:1300px){
+    .top p{
+        padding-right: 5rem;
+    }
+
+   .second p{
+       font-size:1.2rem;
+       padding-right: 5rem;
+   }
+
+   .first p{
+    font-size:1.2rem;
+       padding-right: 5rem;
+   }
+
+
+}
+
+
+@media screen and (max-width:1262px){
+    .first button{
+        width: 55%;
+        height: 8vh;
+        font-size: 1.2rem;  
+    }
+    .first p{
+        font-size:1.1rem;
+        padding-right: 6rem;
+       }
+}
+
+@media screen and (max-width:1200px){
+    .first h2{
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+
+    .first p{
+        font-size:1.1rem;
+        padding-right: 0rem;
+       }
+
+}
+
+@media screen and (max-width:1092px){
+    .second p{
+        padding-right: 3rem;
+        padding-bottom: 4rem;
+        font-size: 1.1rem;
+    }
+
+    .top p{
+        padding-bottom: 3rem;
+        padding-right: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .first p{
+        font-size:1rem;
+        padding-right: 1rem;
+       }
+
+}
+
+@media screen and (max-width:865px){
+        .bottom{
+            display: block;
+            margin: 0;
+        }
+        .top{
+            height: 40vh;
+        }
+
+        .first{
+            width: 100%;
+            margin: 0;
+            border: 1px solid rgb(84 179 175);
+            position: relative;
+        }
+        .second{
+            width: 100%;
+            border: 1px solid rgb(84 179 175);
+            position: relative;
+        }
+
+        .second p{
+            padding-right: 9rem;
+            padding-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+
+        .first h2{
+            font-size: 1.7rem;
+        }
+        .first p{
+            font-size: 1.5rem;
+        }
+
+}
+
+@media screen and (max-width:650px){
+    .top{
+        height: 50vh;
+        width: 100%;
+    }
+    .first{
+        height: 50vh; 
+    }
+    .second{
+        height: 50vh;
+    }
+
+    .first button{
+        width: 70%;
+        margin-top: 5rem;
+    }
+    .first p{
+        padding-right: 0rem;
+        font-size: 1.2rem;
+    }
+    .second p{
+        padding-right: 4rem;
+        font-size: 1.3rem;
+        margin-top: 3rem;
+    }
+}
+
+
+@media screen and (max-width:522px){
+    .top h1{
+        font-size: 1.5rem;
+    }
+    .top h2{
+        font-size: 1rem;
+        padding-right: 0rem;
+    }
+    .top p{
+        line-height: 1.5rem;
+    }
+    .first h2{
+        font-size: 1.2rem;
+
+    }
+    .first p{
+        font-size: 1rem;
+    }
+    .second p{
+        line-height: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width:419px){
+    .main{
+    display: grid;
+    place-items: center;
+    }
+    .bottom{
+        display: grid;
+        place-items: center;
+        }
+
+    .top{
+        width: 120%;
+
+    }
+    .first{
+        width: 120%;
+        
+    }
+    .second{
+        width: 120%;
+        
+    }
+}
+
+@media screen and (max-width:320px){
+    .main{
+        display: grid;
+        place-items: center;
+        }
+        .bottom{
+            display: grid;
+            place-items: center;
+        }
+}
+
+
+
